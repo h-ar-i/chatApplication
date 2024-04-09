@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .hh1 {
+    color: white;
+    font-family: "Darumadrop One", sans-serif;
+    font-weight: 400;
+    font-size: 300%;
+    margin-bottom: 25px;
+  }
+  .hh2 {
+    color: white;
+    font-family: "Darumadrop One", sans-serif;
+    font-weight: 400;
+    font-size: 300%;
+  
+  }
+  .yel{
+    color: yellow;
+  }
+  .mm{
+    height: 80%;
+    width: 30%;
+    border-radius: 15px;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  }
+  .headchat{
+    border-radius: 15px 15px 0 0;
+  }
+  .chatarea{
+    overflow-y: auto;
+  }
+  .chatarea::-webkit-scrollbar{
+    display: none;
+  }
+  .inp{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-left: 10px;
+    font-weight: 500;
+  }
+  .btt{
+    border-radius: 15px;
+    background-color: rgb(7, 204, 7);
+    font-size: 200%;
+  }
+  
+  .mbox{
+    padding: 10px;
+    width: fit-content;
+    font-size: 120%;
+    border-radius: 15px;
+    clear: both;
+  }
+  .pp{
+    margin: 0;
+    font-size: 16px;
+  }
+  .p1{
+    margin: 0;
+    font-weight: 700;
+  }
+  .abox{
+    padding: 5px;
+    width: fit-content;
+    background-color: aqua;
+    font-size: 80%;
+    border-radius: 15px;
+    clear: both;
+  }
+  
+  .right{
+    background-color: rgb(58, 218, 111);
+    float: right;
+  }
+  .left{
+    background-color: rgb(184, 182, 182);
+    float: left;
+  }
+  
+  @media(max-width:1300px){
+    .mm{
+      width: 70%;
+    }
+  }
+  
+  @media(max-width:450px){
+    .mm{
+      width: 100%;
+      height: 100%;
+      border-radius: 0;
+    }
+    .headchat{
+      border-radius: 0;
+    }
+    .mbox{
+      font-size: 13 0%;
+    }
+    .inp{
+      font-weight: 500;
+      font-size: 150%;
+    }
+    .hh2 {
+      color: white;
+      font-family: "Darumadrop One", sans-serif;
+      font-weight: 400;
+      font-size: 250%;
+      margin: 0;
+    }
+  }
